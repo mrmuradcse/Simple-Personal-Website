@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.pink-highlight{
+    font-family: 'Poppins', sans-serif;
+    color:#EC4C7A;
+    font-size: 80px;
+    font-weight: 800;
+}
+p{
+    color: #707070;
+    font-size: 20px;
+}
+
+.half-width{
+    width:40%;
+    float:left;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+#naming-part{
+    margin-left: 8%;
+    padding-left: 8%;
+    padding-top: 300px;
+}
+
+.header-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 1080px;
+    zoom: 85%;
+}
+
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, #EC5197, #EC4C7A);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block; /* The <a> tag is an inline element and therefore cannot have a top or bottom margin. But you can solve this by applying display: inline-block; to it. */
+    margin-top: 20px;
+}
+
